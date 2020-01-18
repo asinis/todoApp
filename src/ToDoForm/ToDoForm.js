@@ -40,7 +40,7 @@ function ToDoForm() {
   return (
     <div>
       <h2 className="App">Todos</h2>
-      <div className="offset-4 col-md-4">
+      <div className="offset-4 col-4">
         <div className="input-group">
           <input type='search' onChange={handleInputChange} id="txtToDo" value={toDo} placeholder='Enter todo here...' className='form-control' />
           <div className="input-group-append">
@@ -48,7 +48,7 @@ function ToDoForm() {
           </div>
         </div>
       </div>
-      <div className="offset-4 col-md-4 text-align-default">
+      <div className="offset-4 col-4 text-align-default">
       {
         toDoList.map((item, index) => (
           <div key={index}>
