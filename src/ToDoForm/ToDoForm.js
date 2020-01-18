@@ -4,7 +4,7 @@ import './ToDoForm.css';
 
 function ToDoForm() {
 
-  const toDoInit = "";
+  const toDoInit = ""
   const toDoListInit = []
   const numberClass = ["todo-wrapper-color-a", "todo-wrapper-color-b", "todo-wrapper-color-c", "todo-wrapper-color-d" ];
 
