@@ -1,0 +1,31 @@
+.text-align-default {
+    text-align: none;
+}   
+
+.todo-wrapper {
+    border-radius: 10px;
+    color: #000000;
+    box-shadow: 1px 3px #c4c4c4;
+    font-family: cursive;
+}
+
+.todo-wrapper-color-a {
+    background-color:#78d9e2;
+}
+
+.todo-wrapper-color-b {
+    background-color: #dea6a6;
+}
+
+.todo-wrapper-color-c {
+    background-color: #74e68e;
+}
+
+.todo-wrapper-color-d {
+    background-color: #ffd555;
+}
+
+.btn:hover.text-danger, .btn:focus.text-danger {
+    border: 1px solid red;
+    box-shadow: none;
+}
